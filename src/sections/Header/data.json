@@ -1,0 +1,42 @@
+{
+    "navbarItems": [
+        {
+            "id": 0,
+            "content": "What is Satori?",
+            "to": "/"
+        },
+        {
+            "id": 1,
+            "content": "Fee",
+            "to": "/"
+        },
+        {
+            "id": 2,
+            "content": "Case Study",
+            "to": "/"
+        },
+        {
+            "id": 3,
+            "content": "Support",
+            "to": "/"
+        },
+        {
+            "id": 4,
+            "content": "Blog",
+            "to": "/"
+        }
+    ],
+    "headerButton":[
+        {
+            "id":0,
+            "content":"Material Download",
+            "to":"/"
+        },
+        {
+            "id":1,
+            "content":"inquiry",
+            "to":"/"
+        }
+
+    ]
+}

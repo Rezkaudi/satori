@@ -1,10 +1,11 @@
-import Styles from './Button.module.css'
-import data from './data'
+import Link from 'next/link'
 
-const Buttons = () => {
+const HeaderButton = ({ to, content }) => {
     return (
-        <div>Buttons</div>
+        <button>
+            <Link href={to}>{content}</Link>
+        </button>
     )
 }
 
-export default Buttons
+export { HeaderButton }
