@@ -4,7 +4,7 @@
   --blue: #14747a;
   --orange: #ff6900;
   --green: #45ad91;
-  --white:#fff;
+  --white: #fff;
   --green-gradient: linear-gradient(66.89deg, #14747a 0%, #45ad91 100%);
 
 
@@ -102,5 +102,20 @@ button {
 @media (min-width: 1400px) {
   .container {
     width: 1400px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }

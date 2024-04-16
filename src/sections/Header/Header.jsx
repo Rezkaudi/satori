@@ -24,7 +24,9 @@ const Header = () => {
 
   const [showMenu, setShowMenu] = useState(false)
   const handleMenu = () => {
-    setShowMenu(pre => !pre)
+    if (window.innerWidth <= 992) {
+      setShowMenu(pre => !pre)
+    }
   }
 
   return (
@@ -32,13 +34,13 @@ const Header = () => {
       <div className={`container ${Styles.container}`}>
 
         <Logo src={LogoImg} />
-        
+
         <Burger showMenu={showMenu} handleMenu={handleMenu} />
 
         <nav className={`${Styles.navbar} ${showMenu ? Styles.active : ""}`}>
           <ul>
             {headerData.navbarItems.map(item =>
-              <li>
+              <li onClick={handleMenu}>
                 <Link href={item.to}>{item.content}</Link>
               </li>
             )}
