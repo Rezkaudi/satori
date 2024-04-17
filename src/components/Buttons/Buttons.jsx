@@ -8,4 +8,13 @@ const HeaderButton = ({ to, content }) => {
     )
 }
 
-export { HeaderButton }
+const HeroButton = ({ to, content }) => {
+    return (
+        <button>
+            <Link href={to}>{content}</Link>
+        </button>
+    )
+}
+
+
+export { HeaderButton, HeroButton }

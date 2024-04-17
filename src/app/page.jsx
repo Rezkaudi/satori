@@ -1,9 +1,12 @@
 
+// section
+import Hero from "@/sections/Hero/Hero"
+
 const Home = () => {
-  
+
   return (
     <main>
-      Home
+      <Hero />
     </main>
   )
 }

@@ -30,7 +30,7 @@ const Header = () => {
   }
 
   return (
-    <header className={Styles.header}>
+    <header className={`${Styles.header} ${showMenu ? Styles.active : ""}`}>
       <div className={`container ${Styles.container}`}>
 
         <Logo src={LogoImg} />
@@ -40,7 +40,7 @@ const Header = () => {
         <nav className={`${Styles.navbar} ${showMenu ? Styles.active : ""}`}>
           <ul>
             {headerData.navbarItems.map(item =>
-              <li onClick={handleMenu}>
+              <li key={item.id} onClick={handleMenu}>
                 <Link href={item.to}>{item.content}</Link>
               </li>
             )}

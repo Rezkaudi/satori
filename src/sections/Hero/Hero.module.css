@@ -1,0 +1,160 @@
+.hero {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    min-height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background: var(--green-gradient);
+    z-index: -1;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 20px;
+    margin-top: -150px;
+}
+
+.heroLeft {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.heroLeft h1 {
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.heroButtons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
+    z-index: 0;
+
+    /* background-color: red; */
+}
+
+.heroButtons button {
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    box-shadow: var(--drop-shadow);
+}
+
+.heroButtons button:nth-child(1) {
+    color: var(--blue);
+    outline: 2px var(--blue) solid;
+}
+
+.heroButtons button:nth-child(2) {
+    color: var(--white);
+    background-color: var(--orange);
+    outline: 2px var(--white) solid;
+
+}
+
+.heroButtons button:hover {
+    box-shadow: var(--drop-shadow--hover);
+
+
+}
+
+.heroRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    /* background-color: red; */
+    /* margin-right: 70px; */
+
+}
+
+.heroRight .imageContainer {
+    width: 550px;
+    height: 270px;
+    position: relative;
+}
+
+
+@media (max-width:1200px) {
+    .heroLeft {
+        margin-left: 0;
+    }
+
+    .heroRight {
+        margin-right: 0;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -70px;
+        padding: 0 40px;
+
+    }
+
+    .heroLeft,
+    .heroRight {
+        margin: 0;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .heroRight {
+        margin-top: 50px;
+
+    }
+
+    .heroLeft {
+        text-align: center;
+    }
+
+    .heroButtons {
+        margin-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .heroButtons button {
+        flex: 1;
+        min-width: 300px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .heroLeft h1 {
+        font-size: 25px;
+    }
+}
