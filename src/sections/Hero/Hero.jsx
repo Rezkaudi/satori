@@ -9,6 +9,8 @@ import { HeroButton } from '@/components/Buttons/Buttons'
 // assets
 import HeroImage from '../../../public/images/heroImage.png'
 
+// data
+import HeroData from './data.json'
 
 const Hero = () => {
     return (
@@ -16,10 +18,11 @@ const Hero = () => {
             <div className={`container ${Styles.container}`}>
 
                 <div className={Styles.heroLeft}>
-                    <h1>Marketing automation to increase potential customers "SATORI"</h1>
+                    <h1>{HeroData.heroContent}</h1>
                     <div className={Styles.heroButtons}>
-                        <HeroButton to={'/'} content={"Seminar application"} />
-                        <HeroButton to={'/'} content={'Document request'} />
+                        {HeroData.heroButtons.map(item =>
+                            <HeroButton key={item.id} to={item.to} content={item.content} />
+                        )}
                     </div>
                 </div>
 

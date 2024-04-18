@@ -1,0 +1,27 @@
+{
+    "siteName": "SATORI",
+    "sectionName": "Features",
+    "cardData": [
+        {
+            "id": "01",
+            "title": "customer acquisitionstrong against",
+            "content": "Typical marketing automation tools approach customers based on personal information obtained through inquiries. Therefore, it can be said that the approach is centered on real-name customers.'SATORI'In addition to approaching real-name customers, you can also reach out to anonymous customers before making an inquiry.",
+            "imageName": "feature1.png",
+            "imageAlt": "feature1"
+        },
+        {
+            "id": "02",
+            "title": "Installation and operation easy, simple",
+            "content": "Since there is no need to design or install a database, you can start operation immediately by embedding measurement tags in your website. The interface has a simple structure, so even novice marketers with little experience in MA operations can use it with confidence.",
+            "imageName": "feature2.png",
+            "imageAlt": "feature2"
+        },
+        {
+            "id": "03",
+            "title": "generous support system",
+            "content": "Our specialized staff will provide support on how to use and set up the product.In addition to online help/support, we also hold seminar videos and user meetings, and provide operational support from our staff.",
+            "imageName": "feature3.png",
+            "imageAlt": "feature3"
+        }
+    ]
+}

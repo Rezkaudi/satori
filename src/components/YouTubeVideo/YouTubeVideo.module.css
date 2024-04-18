@@ -1,0 +1,8 @@
+.youtubeVideo {
+    width: 100%;
+    max-width: 900px;
+    outline: none;
+    border: none;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+}

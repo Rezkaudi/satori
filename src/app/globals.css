@@ -5,6 +5,7 @@
   --orange: #ff6900;
   --green: #45ad91;
   --white: #fff;
+  --text: #2c343e;
   --green-gradient: linear-gradient(66.89deg, #14747a 0%, #45ad91 100%);
 
 
@@ -115,7 +116,7 @@ button {
 
 @media (max-width: 992px) {
   .container {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
