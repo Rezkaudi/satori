@@ -59,9 +59,16 @@
         line-height: 30px;
         font-weight: 400;
         flex: 1;
-        max-width: 700px;
         text-align: center;
 
     }
 
+    .imageContainer {
+        position: relative;
+        width: 80%;
+        height: fit-content;
+        aspect-ratio: 1.5/1;
+        /* height: 250px; */
+        
+    }
 }

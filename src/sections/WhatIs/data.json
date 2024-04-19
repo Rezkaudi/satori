@@ -1,0 +1,23 @@
+{
+    "sectionTitle": "What is “SATORI”?",
+    "sectionTitleTo":"/",
+    "content": "For questions and consultation regarding “SATORI”, please contactPlease feel free to contact us below.",
+    "services": [
+        {
+            "id": 0,
+            "imageSrc": "/images/whatIs1.svg",
+            "imageAlt": "What is “SATORI”?",
+            "content": "\/ Listen to the overview /",
+            "buttonContent": "Seminar",
+            "buttonTo":"/"
+        },
+        {
+            "id": 1,
+            "imageSrc": "/images/whatIs2.svg",
+            "imageAlt": "What is “SATORI”?",
+            "content": "\/ Ask for details /",
+            "buttonContent": "inquiry",
+            "buttonTo":"/"
+        }
+    ]
+}

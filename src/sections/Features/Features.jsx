@@ -13,9 +13,9 @@ const Features = () => {
     return (
         <section className={Styles.features}>
             <h1 className={Styles.featuresTitle}>
-                "{FeaturesData.siteName}"
+                <span>"{FeaturesData.siteName}"</span>
                 <span className={Styles.sup}>{FeaturesData.cardData.length}</span>
-                {FeaturesData.sectionName}
+                <span>{FeaturesData.sectionName}</span>
             </h1>
             <div className={`container ${Styles.container}`}>
                 {FeaturesData.cardData.map(item =>

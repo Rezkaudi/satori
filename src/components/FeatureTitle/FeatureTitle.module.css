@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    gap: 30px;
 }
 
 .featureTitle .cardId {
@@ -12,16 +13,15 @@
     border-radius: 10px;
     background: var(--green-gradient);
     color: var(--white);
-    margin-right: 30px;
-   
 }
 
-.featureTitle .cardId h2{
+.featureTitle .cardId h2 {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
 }
-.featureTitle .cardId h3{
+
+.featureTitle .cardId h3 {
     font-size: 40px;
     font-weight: 300;
 }
@@ -34,24 +34,29 @@
 }
 
 @media (max-width:992px) {
-    .featureTitle{
+    .featureTitle {
         flex-direction: column;
         text-align: center;
         width: 100%;
     }
 
-    .featureTitle .cardId h2{
-        font-size: 16px;
-    
+    .featureTitle .cardId {
+        margin-bottom: 20px;
+
     }
-    .featureTitle .cardId h3{
+
+    .featureTitle .cardId h2 {
+        font-size: 16px;
+    }
+
+    .featureTitle .cardId h3 {
         font-size: 30px;
     }
-    
-    
+
+
     .featureTitle h1 {
         text-align: center;
         font-size: 30px;
     }
-    
+
 }
