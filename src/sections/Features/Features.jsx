@@ -19,7 +19,7 @@ const Features = () => {
             </h1>
             <div className={`container ${Styles.container}`}>
                 {FeaturesData.cardData.map(item =>
-                    <FeatureCard sectionName={FeaturesData.sectionName} cardData={item} />
+                    <FeatureCard key={item.id} sectionName={FeaturesData.sectionName} cardData={item} />
                 )}
             </div>
         </section>

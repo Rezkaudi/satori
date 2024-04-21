@@ -1,0 +1,71 @@
+{
+    "sectionTitle": "Function introduction",
+    "functionCard": [
+        {
+            "id": "01",
+            "title": " Get potential customers",
+            "content": "Potential customers browsing your websiteCan be developed efficiently",
+            "solveIssuesTitle": "Solve these issues",
+            "solveIssuesCard": [
+                {
+                    "id": "01",
+                    "content": "You don’t know the attributes of potential customers visiting your website."
+                },
+                {
+                    "id": "02",
+                    "content": "Although there is an inflow to our website, the number of inquiries is not increasing."
+                },
+                {
+                    "id": "03",
+                    "content": "Insufficient list of potential customers to sell to  "
+                }
+            ],
+            "imageName": "function1.png",
+            "imageAlt": "function1"
+        },
+        {
+            "id": "02",
+            "title": " Nurture potential customers",
+            "content": "With an appropriate approach tailored to your interestsNurture potential customers",
+            "solveIssuesTitle": "Solve these issues",
+            "solveIssuesCard": [
+                {
+                    "id": "01",
+                    "content": "There are few points of contact with prospective customers and it is difficult to obtain appointments."
+                },
+                {
+                    "id": "02",
+                    "content": "Approaching only a portion of prospective customers without knowing their consideration status."
+                },
+                {
+                    "id": "03",
+                    "content": "I'm too busy to follow up with customers."
+                }
+            ],
+            "imageName": "function2.png",
+            "imageAlt": "function2"
+        },
+        {
+            "id": "03",
+            "title": "Manage potential customers",
+            "content": "Understand and visualize the situation of each prospective customer",
+            "solveIssuesTitle": "Solve these issues",
+            "solveIssuesCard": [
+                {
+                    "id": "01",
+                    "content": "Not knowing the best time to contact potential customers?"
+                },
+                {
+                    "id": "02",
+                    "content": "Unable to utilize accumulated business card information."
+                },
+                {
+                    "id": "03",
+                    "content": "Not being able to visualize the results of implemented measures."
+                }
+            ],
+            "imageName": "function1.png",
+            "imageAlt": "function1"
+        }
+    ]
+}
