@@ -1,7 +1,154 @@
 {
     "policy1": "Information security policy",
-    "policy1To":"/",
+    "policy1To": "/",
     "policy2": "privacy policy",
-    "policy2To":"/",
-    "copyWrite": "© SATORI,Inc. All Rights reserved."
+    "policy2To": "/",
+    "copyWrite": "© SATORI,Inc. All Rights reserved.",
+    "mainLinks": [
+        {
+            "id": 0,
+            "to": "/",
+            "content": "What is “SATORI”?"
+        },
+        {
+            "id": 1,
+            "to": "/",
+            "content": "Fee"
+        },
+        {
+            "id": 2,
+            "to": "/",
+            "content": "Introduction example"
+        },
+        {
+            "id": 3,
+            "to": "/",
+            "content": "List of materials"
+        },
+        {
+            "id": 4,
+            "to": "/",
+            "content": "Seminar"
+        },
+        {
+            "id": 5,
+            "to": "/",
+            "content": "inquiry"
+        }
+    ],
+    "subLinks": [
+        {
+            "id": 0,
+            "to": "/",
+            "isLink": true,
+            "content": "Function introduction",
+            "links": [
+                {
+                    "id": 0,
+                    "to": "/",
+                    "content": "Get potential customers"
+                },
+                {
+                    "id": 1,
+                    "to": "/",
+                    "content": "Nurture leads"
+                },
+                {
+                    "id": 2,
+                    "to": "/",
+                    "content": "Manage leads"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "to": "/",
+            "isLink": false,
+            "content": "media",
+            "links": [
+                {
+                    "id": 0,
+                    "to": "/",
+                    "content": "marketing blog"
+                },
+                {
+                    "id": 1,
+                    "to": "/",
+                    "content": "Email magazine registration"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "to": "/",
+            "isLink": true,
+            "content": "About us",
+            "links": [
+                {
+                    "id": 0,
+                    "to": "/",
+                    "content": "About us"
+                },
+                {
+                    "id": 1,
+                    "to": "/",
+                    "content": "access"
+                },
+                {
+                    "id": 2,
+                    "to": "/",
+                    "content": "what's new"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "to": "/",
+            "isLink": false,
+            "content": "Recruitment information",
+            "links": [
+                {
+                    "id": 0,
+                    "to": "/",
+                    "content": "Recruitment information"
+                },
+                {
+                    "id": 1,
+                    "to": "/",
+                    "content": "Engineer recruitment information"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "to": "/",
+            "isLink": true,
+            "content": "support",
+            "links": [
+                {
+                    "id": 0,
+                    "to": "/",
+                    "content": "Support Desk"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "to": "/",
+            "isLink": false,
+            "content": "partner",
+            "links": [
+                {
+                    "id": 0,
+                    "to": "/",
+                    "content": "partner program"
+                },
+                {
+                    "id": 1,
+                    "to": "/",
+                    "content": "Partner list"
+                }
+            ]
+        }
+    ]
 }

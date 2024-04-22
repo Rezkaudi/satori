@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState ,useEffect} from 'react'
 
 // styles
 import Styles from './Header.module.css'
@@ -23,14 +23,30 @@ import headerData from './data.json'
 const Header = () => {
 
   const [showMenu, setShowMenu] = useState(false)
+  const [activeScroll, setActiveScroll] = useState(false)
+
   const handleMenu = () => {
     if (window.innerWidth <= 992) {
       setShowMenu(pre => !pre)
     }
   }
 
+  const onScroll = () => {
+    const scrollBar = window.scrollY
+    if (scrollBar !== 0) {
+      setActiveScroll(true)
+    }
+    else {
+      setActiveScroll(false)
+    }
+  }
+
+  useEffect(()=> {
+    window.addEventListener("scroll", onScroll);
+  }, [])
+
   return (
-    <header className={`${Styles.header} ${showMenu ? Styles.active : ""}`}>
+    <header className={`${Styles.header} ${showMenu ? Styles.active : ""} ${activeScroll ? Styles.activeScroll : ""}`}>
       <div className={`container ${Styles.container}`}>
 
         <Logo src={LogoImg} />

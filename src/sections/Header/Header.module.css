@@ -11,8 +11,12 @@
 
 .header:hover {
     background: var(--white);
-    color: #000;
+    color: var(--text);
+}
 
+.header.activeScroll {
+    background: var(--white);
+    color: var(--text);
 }
 
 
@@ -117,7 +121,7 @@
     .header {
         height: 68px;
         background: var(--green-gradient);
-        color: #000;
+        color: var(--text);
     }
 
     .header.active {
@@ -127,6 +131,7 @@
     .header.active:hover {
         background: var(--white);
     }
+
     .header:hover {
         background: var(--green-gradient);
     }
