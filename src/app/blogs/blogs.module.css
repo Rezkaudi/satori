@@ -1,0 +1,28 @@
+.allBlogs {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.title{
+    padding: 20px 2em;
+    display: block;
+    color: var(--green);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+@media (max-width:992px) {
+    .title {
+        font-size: 30px;
+    }
+}

@@ -1,20 +1,34 @@
-{
-    "data": [
-        {
-            "id": 1,
-            "name": "rezk1",
-            "password": 123
-        },
-        {
-            "id": 2,
-            "name": "rezk2",
-            "password": 123
-        },
-        {
-            "id": 3,
-            "name": "rezk3",
-            "password": 123
-        }
-    ],
-    "view": 1
-}
+[
+    {
+        "id": 1,
+        "imageName": "blog1.png",
+        "imageAlt": "marketing blog2",
+        "description": "What is STP analysis? What you need to know, how to do it, and examples of how to use it in marketing",
+        "category": "marketing",
+        "date": "2024.04.12"
+    },
+    {
+        "id": 2,
+        "imageName": "blog2.png",
+        "imageAlt": "marketing blog2",
+        "description": "What is a “persona” in business? Specific examples and how to make/free templates",
+        "category": "marketing",
+        "date": "2024.04.13"
+    },
+    {
+        "id": 3,
+        "imageName": "blog3.png",
+        "imageAlt": "marketing blog3",
+        "description": "What is customer management? Basic knowledge and methods/recommendation system",
+        "category": "marketing",
+        "date": "2024.04.15"
+    },
+    {
+        "id": 4,
+        "imageName": "blog4.png",
+        "imageAlt": "event report blog4",
+        "description": "SATORI User Meeting Vol.12 ~Aya~ Event Report (held on February 8, 2024)",
+        "category": "event report",
+        "date": "2024.04.16"
+    }
+]

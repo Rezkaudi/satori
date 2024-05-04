@@ -5,6 +5,8 @@ import Notice from "@/sections/Notice/Notice"
 import Features from "@/sections/Features/Features"
 import WhatIs from "@/sections/WhatIs/WhatIs"
 import FunctionIntroduction from "@/sections/FunctionIntroduction/FunctionIntroduction"
+import TopBlogs from "@/sections/TopBlogs/TopBlogs"
+
 
 // components
 import Brand from "@/components/Brand/Brand"
@@ -18,6 +20,8 @@ const Home = () => {
       <Features />
       <WhatIs />
       <FunctionIntroduction />
+      <TopBlogs/>
+      
       <Brand/>
     </main>
   )

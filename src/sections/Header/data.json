@@ -23,7 +23,7 @@
         {
             "id": 4,
             "content": "Blog",
-            "to": "/"
+            "to": "/blogs"
         }
     ],
     "headerButton":[
