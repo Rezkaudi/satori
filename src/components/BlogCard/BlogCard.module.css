@@ -4,6 +4,12 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    box-shadow: var(--drop-shadow--hover);
+    margin-bottom: 10px;
+}
+
+.blogContainer:hover {
+    box-shadow: var(--drop-shadow);
 }
 
 .blogContainer .imageContainer {

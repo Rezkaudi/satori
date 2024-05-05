@@ -3,7 +3,8 @@
         "id": 1,
         "imageName": "blog1.png",
         "imageAlt": "marketing blog2",
-        "description": "What is STP analysis? What you need to know, how to do it, and examples of how to use it in marketing",
+        "title": "What is STP analysis? What you need to know, how to do it, and examples of how to use it in marketing",
+        "description": "Many people have probably heard of the term ``SEO = Search Engine Optimization,'' but they may have the impression that ``I don't know exactly what to do'' or ``It seems difficult.'' Your boss suddenly told you, ``SEO doesn't cost anything, so I want you to do something about it,'' but you don't know what to do, or you've tried SEO and put keywords in the title or text, but nothing changes. I think there are many people who are at a loss.Therefore, this time we will summarize simple SEO knowledge that even SEO beginners can understand and concrete measures that can be put into practice from tomorrow.",
         "category": "marketing",
         "date": "2024.04.12"
     },
@@ -11,7 +12,8 @@
         "id": 2,
         "imageName": "blog2.png",
         "imageAlt": "marketing blog2",
-        "description": "What is a “persona” in business? Specific examples and how to make/free templates",
+        "title": "What is a “persona” in business? Specific examples and how to make/free templates",
+        "description": "Many people have probably heard of the term ``SEO = Search Engine Optimization,'' but they may have the impression that ``I don't know exactly what to do'' or ``It seems difficult.'' Your boss suddenly told you, ``SEO doesn't cost anything, so I want you to do something about it,'' but you don't know what to do, or you've tried SEO and put keywords in the title or text, but nothing changes. I think there are many people who are at a loss.Therefore, this time we will summarize simple SEO knowledge that even SEO beginners can understand and concrete measures that can be put into practice from tomorrow.",
         "category": "marketing",
         "date": "2024.04.13"
     },
@@ -19,7 +21,8 @@
         "id": 3,
         "imageName": "blog3.png",
         "imageAlt": "marketing blog3",
-        "description": "What is customer management? Basic knowledge and methods/recommendation system",
+        "title": "What is customer management? Basic knowledge and methods/recommendation system",
+        "description": "Many people have probably heard of the term ``SEO = Search Engine Optimization,'' but they may have the impression that ``I don't know exactly what to do'' or ``It seems difficult.'' Your boss suddenly told you, ``SEO doesn't cost anything, so I want you to do something about it,'' but you don't know what to do, or you've tried SEO and put keywords in the title or text, but nothing changes. I think there are many people who are at a loss.Therefore, this time we will summarize simple SEO knowledge that even SEO beginners can understand and concrete measures that can be put into practice from tomorrow.",
         "category": "marketing",
         "date": "2024.04.15"
     },
@@ -27,7 +30,8 @@
         "id": 4,
         "imageName": "blog4.png",
         "imageAlt": "event report blog4",
-        "description": "SATORI User Meeting Vol.12 ~Aya~ Event Report (held on February 8, 2024)",
+        "title": "SATORI User Meeting Vol.12 ~Aya~ Event Report (held on February 8, 2024)",
+        "description": "Many people have probably heard of the term ``SEO = Search Engine Optimization,'' but they may have the impression that ``I don't know exactly what to do'' or ``It seems difficult.'' Your boss suddenly told you, ``SEO doesn't cost anything, so I want you to do something about it,'' but you don't know what to do, or you've tried SEO and put keywords in the title or text, but nothing changes. I think there are many people who are at a loss.Therefore, this time we will summarize simple SEO knowledge that even SEO beginners can understand and concrete measures that can be put into practice from tomorrow.",
         "category": "event report",
         "date": "2024.04.16"
     }

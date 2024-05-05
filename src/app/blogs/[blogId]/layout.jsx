@@ -12,7 +12,7 @@ export const generateMetadata = ({ params }) => {
   return {
     title: blog.category,
     description: blog.description,
-    keywords: blog.description
+    keywords: `${blog.title},${blog.description},${blog.category}`
   }
 }
 

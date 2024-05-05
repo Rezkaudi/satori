@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 50px;
 }
 
@@ -25,4 +25,10 @@
     .topBlogsTitle {
         font-size: 30px;
     }
+}
+
+@media (max-width:420px) {
+    .container {
+        grid-template-columns: repeat(auto-fill,  minmax(100%, auto));
+    }   
 }

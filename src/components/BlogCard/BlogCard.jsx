@@ -11,7 +11,7 @@ const BlogCard = ({ Blog }) => {
                 <Image src={`/blogImages/${Blog.imageName}`} alt={Blog.imageAlt} fill={true}/>
                 <div className={Styles.date}>{Blog.date}</div>
             </div>
-            <h2 className={Styles.description}>{Blog.description}</h2>
+            <h2 className={Styles.description}>{Blog.title}</h2>
             <div className={Styles.category}>{Blog.category}</div>
         </Link>
     )

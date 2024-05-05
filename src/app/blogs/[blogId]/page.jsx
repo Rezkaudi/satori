@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 // data
 import Blogs from '../../../db/db.json'
 
@@ -26,7 +28,17 @@ const BlogPage = ({ params }) => {
     return (
         <div className={Styles.BlogPage}>
             <div className={`container ${Styles.container}`}>
-                My Blog: {blog.id}
+                <div className={Styles.topContainer}>
+                    <div className={Styles.category}>{blog.category}</div>
+                    <div className={Styles.date}>{blog.date}</div>
+                </div>
+                <h2 className={Styles.title}>{blog.title}</h2>
+                <div className={Styles.imageContainer}>
+                    <Image src={`/blogImages/${blog.imageName}`} alt={blog.imageAlt} fill={true} />
+                </div>
+                <div className={Styles.descriptionContainer}>
+                    <p className={Styles.description}>{blog.description}</p>
+                </div>
             </div>
         </div>
     )

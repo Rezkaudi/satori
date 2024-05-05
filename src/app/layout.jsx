@@ -11,6 +11,7 @@ const inter = Roboto({
 // sections
 import Header from "@/sections/Header/Header";
 import Footer from "@/sections/Footer/Footer";
+import Loading from "./loading";
 
 // metadata
 export const metadata = {

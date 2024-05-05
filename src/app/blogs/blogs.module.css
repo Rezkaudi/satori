@@ -26,3 +26,10 @@
         font-size: 30px;
     }
 }
+
+
+@media (max-width:420px) {
+    .container {
+        grid-template-columns: repeat(auto-fill,  minmax(100%, auto));
+    }   
+}

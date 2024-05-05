@@ -16,7 +16,7 @@ const AllBlogs = () => {
       <div className={Styles.title}>All Blogs</div>
       <div className={`container ${Styles.container}`}>
         {Blogs.reverse().map(blog =>
-          <BlogCard Blog={blog} />
+          <BlogCard key={blog.id} Blog={blog} />
         )}
       </div>
     </main>

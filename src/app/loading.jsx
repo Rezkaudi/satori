@@ -1,7 +1,9 @@
 
 const Loading = () => {
     return (
-        <div>Loading ...</div>
+        <div className="loading-animation">
+            <div className="loading-text">Loading ...</div>
+        </div>
     )
 }
 
