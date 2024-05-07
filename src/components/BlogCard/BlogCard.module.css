@@ -33,7 +33,7 @@
 }
 
 .blogContainer .description {
-    padding: 10px 0;
+    padding: 10px 10px;
     color: var(--text);
     line-height: 30px;
     font-weight: 500;
@@ -46,7 +46,7 @@
 .blogContainer .category {
     color: var(--green);
     margin: 20px;
-    padding-left: 30px;
+    padding-left: 10px;
     width: 100%;
     font-size: 13px;
 }

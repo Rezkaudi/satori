@@ -8,6 +8,8 @@ import Styles from './TopBlogs.module.css'
 
 // components
 import BlogCard from '@/components/BlogCard/BlogCard'
+import { Button } from '@/components/Buttons/Buttons'
+
 
 const TopBlogs = () => {
     return (
@@ -18,6 +20,7 @@ const TopBlogs = () => {
                     <BlogCard key={item.id} Blog={item} />
                 )}
             </div>
+            <Button content={"All Blogs"} to={'/blogs'} />
         </div>
     )
 }
